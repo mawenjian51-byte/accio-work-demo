@@ -1311,7 +1311,7 @@ nav.solid{box-shadow:0 10px 26px -22px rgba(24,26,32,.35)}
             <div class="case3 reveal" style="transition-delay: 60ms;">
         <div class="c3-head">
           <b>同一句话，三个产品的实际画面</b>
-          <span>同一个任务：<b>按国际站套图标注，生成 5 张套图 + 属性配图，用于上传草稿箱</b>（产品：MAX1669EEE 风扇控制器芯片，店铺真实商品 11000035383331）</span>
+          <span>同一个任务：<b>按国际站套图标注，生成 5 张套图 + 属性配图，用于上传草稿箱</b>（产品：MAX1669EEE 风扇控制器芯片，店铺真实商品 11000035******）</span>
         </div>
         <div class="c3-grid c3-grid-2">
           <figure class="c3c">
@@ -3672,7 +3672,6 @@ var MEDIA = {
     });
   }
 
-  /* 只初始化当前可见的那块；切页签时再拉下一块 */
   var embeds = Array.prototype.slice.call(document.querySelectorAll(".dash-embed"));
   function initVisible(){
     embeds.forEach(function(f){ if (f.offsetParent !== null) initDash(f); });
